@@ -1,0 +1,13 @@
+{
+  "name": "project-root",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "install": "cd mock_interview_platform && npm run install:all",
+    "install:all": "cd mock_interview_platform && npm run install:all",
+    "dev": "cd mock_interview_platform/client && npm run dev",
+    "start": "cd mock_interview_platform/client && npm run dev",
+    "start:server": "cd mock_interview_platform/server && npm run dev",
+    "start:client": "cd mock_interview_platform/client && npm run dev"
+  }
+}
